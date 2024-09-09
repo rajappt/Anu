@@ -41,6 +41,18 @@ public class GFG {
             System.out.println();
         }
     }
+#vesion2.2change by vinay
+public class MultiplyTwoNumbers {
+
+    public static void main(String[] args) {
+
+        float first = 1.5f;
+        float second = 2.0f;
+
+        float product = first * second;
+
+        System.out.println("The product is: " + product);
+    }
  
     // Driver Function
     public static void main(String args[])
@@ -49,4 +61,8 @@ public class GFG {
         StarleftTriangle(k);
     }
 }
+vesion2.2
+#end of vesion2.2
+
 #end of vesion2.1 
+ development
