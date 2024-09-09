@@ -18,7 +18,25 @@ public class GFG {
                 // printing stars
                 System.out.print("* ");
             }
+ #vesion2.1 change by raja
+ public static void main(String[] args)
+    {
+        int num = 5;
+        int x = 0;
  
+        // Outer loop for rows
+        for (int i = 1; i <= num; i++) {
+            x = i - 1;
+ 
+            // inner loop for "i"th row printing
+            for (int j = i; j <= num - 1; j++) {
+ 
+                // First Number Space
+                System.out.print(" ");
+ 
+                // Space between Numbers
+                System.out.print("  ");
+            }
             // end-line
             System.out.println();
         }
@@ -43,4 +61,8 @@ public class MultiplyTwoNumbers {
         StarleftTriangle(k);
     }
 }
+vesion2.2
 #end of vesion2.2
+
+#end of vesion2.1 
+ development
