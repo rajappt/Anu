@@ -1,22 +1,12 @@
 working with the git tools
 JAVA CODE IS RUNING IS JENIKES 
- public void PreProcessBMSBadMatchTable(char[] patternCharacters)
-        {
-            ShiftSizeTable.Clear();
+public static void main(String[] args) {
+    
+    int first = 10;
+    int second = 20;
 
-            int totalCharacters = patternCharacters.Length;
-
-            for (int lpIndex = 0; lpIndex < totalCharacters; lpIndex++)
-            {
-                //Calculate the shift size for each character in the string or char array.
-                int ShiftSize = Math.Max(1, (totalCharacters - 1) - lpIndex);
-
-                //If the charater is already exists in the ShiftSize table then replace it else add it to ShiftSize table.
-                if (ShiftSizeTable.ContainsKey(patternCharacters[lpIndex]))
-                {
-                    ShiftSizeTable.Remove(patternCharacters[lpIndex]);
-                }
-
-                ShiftSizeTable.Add(patternCharacters[lpIndex], ShiftSize);
-            }
-        }
+    // add two numbers
+    int sum = first + second;
+    System.out.println(first + " + " + second + " = "  + sum);
+  }
+}
